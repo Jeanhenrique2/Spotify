@@ -32,8 +32,10 @@ const artistsData = [
 
           artistCard.innerHTML = `
           <img src= "${artist.image}" alt="imagem do ${artist.name}">
-          <h3>${artist.name}</h3>
-          <p>artista</p>
+          <div>
+           <h3>${artist.name}</h3>
+           <p>artista</p>
+          </div>
           `
 
           artistGrid.appendChild(artistCard)
@@ -46,7 +48,10 @@ const artistsData = [
 
           albumCard.innerHTML = `
           <img src= "${album.image}" alt="imagem do ${album.name}">
-          <p>${album.name}</p>
+          <div>
+           <h3>${album.name}</h3>
+           <p>${album.artist}</p>
+          </div>
           `
 
           albumsGrid.appendChild(albumCard)
