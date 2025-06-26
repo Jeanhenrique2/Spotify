@@ -10,7 +10,7 @@
 ## 🖼 Visual do Projeto
 
 <p align="center">
-  <img src="img/tela-principal.png" alt="tela do projeto" width="100%">
+  <img src="img/spotify.JPG" alt="tela do projeto" width="100%">
 </p>
 
 ---
